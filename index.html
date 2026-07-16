@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Evolution of the 3-Pointer in the NBA</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"></script>
+    </head>
+    <body>
+        <button id="back-btn">Back</button>
+        <button id="next-btn">Next</button>
+        <select id="era-selection">
+            <option value="Early">1980-1999: Early 3-Point Era</option>
+            <option value="Mid">2000-2012 Mid Era</option>
+            <option value="Curry">2013-Present: The Curry Era</option>
+            <option value="All">All Eras</option>
+        </select>
+        <div>
+            <svg id="chart" width="800" height="800"></svg>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
