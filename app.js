@@ -162,7 +162,7 @@ function render() {
             annotationData = [{
                 note: {
                     title: "The Early Years (1980-1999)",
-                    label: "Despite its introduction, the 3-pointer was ignored early on. Teams shot at most roughly 20 per game. Due to lack of defense proper defensive tactics however, points per game were still relatively high.",
+                    label: "Despite it's introduction, the 3-pointer was ignored early on. Teams shot at most roughly 20 per game. Due to lack of proper defensive tactics however, points per game were still relatively high.",
                     wrap: "300"
                 },
                 x: x(10),
@@ -175,7 +175,7 @@ function render() {
             annotationData = [{
                 note: {
                     title: "Growth Years (2000-2012)",
-                    label: "The shot volume of the 3-pointer slowly increased. Due to increase in defensive tactics, points per game are somewhat lower than the previous early era.",
+                    label: "The shot volume of the 3-pointer slowly increased. Due to increase in defensive tactics, points per game were somewhat lower than the previous early era.",
                     wrap: "300"
                 },
                 x: x(17),
@@ -201,7 +201,7 @@ function render() {
             annotationData = [{
                 note: {
                     title: "Explore the data",
-                    label: "You have finished the slideshow! Feel free to hover over each datapoint to view team data specific data per season!",
+                    label: "You have finished the slideshow! Feel free to hover over each datapoint to view team specific data per season!",
                     wrap: "300"
                 },
                 x: width / 2.25,
